@@ -14,9 +14,9 @@ Baekjoon Online Judge 문제풀이 스터디
 
 #### 2주차
 
-- 9461 파도반 수열
-- 2294 동전 2
-- 2133 타일 채우기
+- [9461 파도반 수열](https://www.acmicpc.net/problem/9461)
+- [2294 동전 2](https://www.acmicpc.net/problem/2294)
+- [2133 타일 채우기](https://www.acmicpc.net/problem/2133)
 
 #### 3주차
 
