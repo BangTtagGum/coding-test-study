@@ -1,4 +1,4 @@
-package org.example;
+package lee.week2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
