@@ -20,13 +20,20 @@ Baekjoon Online Judge 문제풀이 스터디
 
 #### 3주차
 
-- 1520 내리막 길
-- 1890 점프
-- 2225 합분해
+- [1759 암호 만들기](https://www.acmicpc.net/problem/1759)
+- [12851 숨바꼭질 2](https://www.acmicpc.net/problem/12851)
+- [2493 탑](https://www.acmicpc.net/problem/2493)
 
 #### 4주차
 
-- 1965 상자넣기
-- 1309 동물원
-- 2011 암호코드
+- [17090 미로 탈출하기](https://www.acmicpc.net/problem/17090)
+- [1309 동물원](https://www.acmicpc.net/problem/1309)
+- [15684 사다리 조작](https://www.acmicpc.net/problem/15684)
+
+#### 5주차
+
+- [1726 로봇](https://www.acmicpc.net/problem/1726)
+- [14890 경사로](https://www.acmicpc.net/problem/14890)
+- [2225 합분해](https://www.acmicpc.net/problem/2225)
+
 
