@@ -36,4 +36,23 @@ Baekjoon Online Judge 문제풀이 스터디
 - [14890 경사로](https://www.acmicpc.net/problem/14890)
 - [2225 합분해](https://www.acmicpc.net/problem/2225)
 
+#### 6주차
+
+- [2812 크게 만들기](https://www.acmicpc.net/problem/2812)
+- [10799 쇠막대기](https://www.acmicpc.net/problem/10799)
+- [3111 검열](https://www.acmicpc.net/problem/3111)
+
+#### 7주차
+
+- [11559 PuyoPuyo](https://www.acmicpc.net/problem/11559)
+- [4991 로봇 청소기](https://www.acmicpc.net/problem/4991)
+- [14502 연구소](https://www.acmicpc.net/problem/14502)
+
+#### 8주차
+
+- [14503 로봇 청소기](https://www.acmicpc.net/problem/14503)
+- [10866 덱](https://www.acmicpc.net/problem/10866)
+- [17144 미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
+
+
 
