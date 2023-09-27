@@ -33,7 +33,6 @@ public class _15684 {
 
         putSadari(0,0,sadari,0);
 
-
         if (min == 4) {
             System.out.println(-1);
             return;
