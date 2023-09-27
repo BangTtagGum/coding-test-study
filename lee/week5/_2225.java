@@ -24,20 +24,22 @@ public class _2225 {
 
         for (int i = 0; i <= n; i++) {
             dp[i][1] = 1;
-            dp[i][2] = i+1;
         }
+
         for (int i = 0; i <= k; i++) {
             dp[0][i] = 1;
             dp[1][i] = i;
         }
 
         for (int i = 2; i <= n; i++) {
-            for (int j = 3; j <= k; j++) {
-                for (int l = 0; l <= n; l++) {
+            for (int j = 2; j <= k; j++) {
+                for (int l = 0; l <= i; l++) {
                     dp[i][j] += dp[l][j-1];
+                    dp[i][j]%= 1000000000;
                 }
             }
         }
+        System.out.println(dp[n][k]);
     }
 }
 
