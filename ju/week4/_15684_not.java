@@ -1,4 +1,4 @@
-package ju;
+package ju.week4;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  *
  * GG 못풀겠음
  */
-public class _15684 {
+public class _15684_not {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
