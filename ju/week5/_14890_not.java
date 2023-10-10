@@ -1,4 +1,4 @@
-package ju;
+package ju.week5;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  *
  * GG 못풀겠음
  */
-public class _14890 {
+public class _14890_not {
     static int n;
     static int cnt = 0;
     static int[][] map;
