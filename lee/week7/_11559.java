@@ -24,7 +24,6 @@ public class _11559 {
 
         System.out.println(PuyoGame.run());
 
-
     }
 
     static class PuyoGame {
