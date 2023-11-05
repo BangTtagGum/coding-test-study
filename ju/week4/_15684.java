@@ -8,6 +8,8 @@ import java.util.StringTokenizer;
 /**
  * 사다리 조작
  *
+ * 메모리: 18628kb
+ * 시간: 1016ms
  */
 public class _15684 {
     private static int n;
