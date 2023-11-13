@@ -54,5 +54,23 @@ Baekjoon Online Judge 문제풀이 스터디
 - [10866 덱](https://www.acmicpc.net/problem/10866)
 - [17144 미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
 
+#### 9주차
+
+- [16234 인구이동](https://www.acmicpc.net/problem/16234)
+- [9935 문자열 폭발](https://www.acmicpc.net/problem/9935)
+- [1520 내리막 길](https://www.acmicpc.net/problem/1520)
+
+#### 10주차
+
+- [1987 알파벳](https://www.acmicpc.net/problem/1987)
+- [5014 스타트 링크](https://www.acmicpc.net/problem/5014)
+- [9019 DSLR](https://www.acmicpc.net/problem/9019)
+
+#### 11주차
+
+- [1725 히스토그램](https://www.acmicpc.net/problem/1725)
+- [3055 탈출](https://www.acmicpc.net/problem/3055)
+- [13459 구슬 탈출](https://www.acmicpc.net/problem/13459)
+
 
 
