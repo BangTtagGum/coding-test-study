@@ -3,6 +3,8 @@ package ju.week10;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 /**
@@ -13,7 +15,11 @@ import java.util.StringTokenizer;
  * 반례: 6 1 6 3 2
  * 층수를 올라가고 내려가고 다시 올라가는 경우도 따져야함
  *
- * 2차:
+ * 2차: bfs를 활용한 완전탐색
+ * 해당 층에 가장 빨리 도달하도록 탐색
+ *
+ * 메모리: 58600KB
+ * 시간: 284ms
  */
 public class _5014 {
     public static void main(String[] args) throws IOException {
@@ -25,48 +31,39 @@ public class _5014 {
         int u = Integer.parseInt(st.nextToken());
         int d = Integer.parseInt(st.nextToken());
 
-        int result = 0;
-        //목표 층수 계산
-        int goal = Math.abs(s - g);
-        if (s < g) {
-            //가야하는 층수가 더 높은데 U버튼이 0
-            if (u == 0) {
-                System.out.println("use the stairs");
-                System.exit(0);
-            }
-            result += goal / u;
-            int remain = goal % u;
-            while (remain % u != 0) {
-                result++;
-                remain += d;
-                if (f <= remain) {
-                    System.out.println("use the stairs");
-                    System.exit(0);
-                }
-            }
-            result += remain / u;
-        } else if (s > g) {
-            if (d == 0) {
-                //가야하는 층수가 더 낮은데 D버튼이 0
-                System.out.println("use the stairs");
-                System.exit(0);
-            }
-            result += goal / d;
-            int remain = goal % d;
-            while (remain % d != 0) {
-                result++;
-                remain += u;
-                if (f <= remain) {
-                    System.out.println("use the stairs");
-                    System.exit(0);
-                }
-            }
-            result += remain / d;
-        } else {
-            System.out.println(0);
+        if (u > 1000000) {
+            System.out.println("use the stairs");
             System.exit(0);
         }
 
-        System.out.println(result);
+        int max = f + 1;
+        int[] floor = new int[max];
+        boolean[] visited = new boolean[max];
+
+        Queue<Integer> q = new LinkedList<>();
+        q.offer(s);
+        visited[s] = true;
+        while (!q.isEmpty()) {
+
+            if (visited[g]) break;
+
+            int x = q.poll();
+            int upStair = x + u;
+            int downStair = x - d;
+
+            if (upStair < max && !visited[upStair]) {
+                floor[upStair] = floor[x] + 1;
+                visited[upStair] = true;
+                q.offer(upStair);
+            }
+
+            if (downStair > 0 && !visited[downStair]) {
+                floor[downStair] = floor[x] + 1;
+                visited[downStair] = true;
+                q.offer(downStair);
+            }
+        }
+
+        System.out.println(visited[g] ? floor[g] : "use the stairs");
     }
 }
