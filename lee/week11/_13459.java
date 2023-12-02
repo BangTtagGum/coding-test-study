@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 /**
  * 2023.12.02
- * 구슬 탈출
+ * 13459 구슬 탈출
  */
 public class _13459 {
 
@@ -43,8 +43,7 @@ public class _13459 {
         int cnt = 1;
         while (!q.isEmpty()) {
             if (cnt > 10) {
-                System.out.println(0);
-                return;
+                break;
             }
             int len = q.size();
 
@@ -73,8 +72,6 @@ public class _13459 {
         System.out.println(0);
 
 
-
-
     }
 
     public static void print(Board board) {
@@ -86,7 +83,6 @@ public class _13459 {
         }
         System.out.println();
     }
-
 
 
     static class Board {
@@ -128,26 +124,27 @@ public class _13459 {
 
         private boolean up() {
             boolean flag = false;
-            for (int i = 1; i < r-1; i++) {
-                for (int j = 1; j < c-1; j++) {
+            for (int i = 1; i < r - 1; i++) {
+                for (int j = 1; j < c - 1; j++) {
                     if (map[i][j] == 'R' || map[i][j] == 'B') {
                         int n = 1;
                         while (true) {
-                            if (map[i - n][j] == '#' || map[i -n][j] == 'R' || map[i -n][j] == 'B') {
+                            if (map[i - n][j] == '#' || map[i - n][j] == 'R'
+                                    || map[i - n][j] == 'B') {
                                 char tmp = map[i][j];
                                 map[i][j] = '.';
                                 map[i - n + 1][j] = tmp;
                                 break;
                             }
                             if (map[i - n][j] == 'O') {
-                                if(map[i][j] == 'R') {
+                                if (map[i][j] == 'R') {
                                     this.redGoal = true;
                                     map[i][j] = '.';
                                     flag = true;
                                 } else if (map[i][j] == 'B') {
                                     this.blueGoal = true;
                                     map[i][j] = '.';
-                                    flag =  true;
+                                    flag = true;
                                 }
                                 break;
                             }
@@ -162,18 +159,19 @@ public class _13459 {
 
         private boolean right() {
             boolean flag = false;
-            for (int i = 1; i < r-1; i++) {
-                for (int j = c-2; j >= 1; j--) {
+            for (int i = 1; i < r - 1; i++) {
+                for (int j = c - 2; j >= 1; j--) {
                     if (map[i][j] == 'R' || map[i][j] == 'B') {
                         int n = 1;
                         while (true) {
-                            if (map[i][j+n] == '#' || map[i][j+n] == 'R' || map[i][j+n] == 'B') {
+                            if (map[i][j + n] == '#' || map[i][j + n] == 'R'
+                                    || map[i][j + n] == 'B') {
                                 char tmp = map[i][j];
                                 map[i][j] = '.';
-                                map[i][j+n-1] = tmp;
+                                map[i][j + n - 1] = tmp;
                                 break;
                             }
-                            if (map[i][j+n] == 'O') {
+                            if (map[i][j + n] == 'O') {
                                 if (map[i][j] == 'R') {
                                     this.redGoal = true;
                                     map[i][j] = '.';
@@ -197,12 +195,13 @@ public class _13459 {
 
         private boolean down() {
             boolean flag = false;
-            for (int i = r-2; i >= 1; i--) {
-                for (int j = 1; j < c-1; j++) {
+            for (int i = r - 2; i >= 1; i--) {
+                for (int j = 1; j < c - 1; j++) {
                     if (map[i][j] == 'R' || map[i][j] == 'B') {
                         int n = 1;
                         while (true) {
-                            if (map[i + n][j] == '#' || map[i +n][j] == 'R' || map[i +n][j] == 'B') {
+                            if (map[i + n][j] == '#' || map[i + n][j] == 'R'
+                                    || map[i + n][j] == 'B') {
                                 char tmp = map[i][j];
                                 map[i][j] = '.';
                                 map[i + n - 1][j] = tmp;
@@ -233,18 +232,19 @@ public class _13459 {
 
         private boolean left() {
             boolean flag = false;
-            for (int i = 1; i < r-1; i++) {
-                for (int j = 1; j < c-1; j++) {
+            for (int i = 1; i < r - 1; i++) {
+                for (int j = 1; j < c - 1; j++) {
                     if (map[i][j] == 'R' || map[i][j] == 'B') {
                         int n = 1;
                         while (true) {
-                            if (map[i][j-n] == '#' || map[i][j-n] == 'R' || map[i][j-n] == 'B') {
+                            if (map[i][j - n] == '#' || map[i][j - n] == 'R'
+                                    || map[i][j - n] == 'B') {
                                 char tmp = map[i][j];
                                 map[i][j] = '.';
-                                map[i][j-n+1] = tmp;
+                                map[i][j - n + 1] = tmp;
                                 break;
                             }
-                            if (map[i][j-n] == 'O') {
+                            if (map[i][j - n] == 'O') {
                                 if (map[i][j] == 'R') {
                                     this.redGoal = true;
                                     map[i][j] = '.';
@@ -274,14 +274,15 @@ public class _13459 {
             }
             return clone;
         }
+
         public int[] redBluePoints() {
             int[] redBlueArray = new int[4];
-            for (int i = 1; i < r-1; i++) {
-                for (int j = 1; j < c-1; j++) {
+            for (int i = 1; i < r - 1; i++) {
+                for (int j = 1; j < c - 1; j++) {
                     if (map[i][j] == 'R') {
                         redBlueArray[0] = i;
                         redBlueArray[1] = j;
-                    }else if (map[i][j] == 'B') {
+                    } else if (map[i][j] == 'B') {
                         redBlueArray[2] = i;
                         redBlueArray[3] = j;
                     }
