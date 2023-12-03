@@ -11,6 +11,22 @@ import java.util.StringTokenizer;
  * 구슬 탈출
  *
  * 빨,파 구슬의 위치를 q에 같이 넣으면서 비교해야함
+ *
+ * 반례
+ 8 8
+ ########
+ #BR.#.O#
+ ###.#..#
+ #...#..#
+ #.###..#
+ #..#..##
+ ##...#.#
+ ########
+
+ * 10번째 시도시 체크로직이 잘못됨.
+ *
+ * 메모리: 16412KB
+ * 시간: 160ms
  */
 public class _13459 {
     static int[] dx = {0, 1, 0, -1};
@@ -62,7 +78,7 @@ public class _13459 {
             int redX = redPoll.x;
             int redY = redPoll.y;
             int dist = redPoll.dist;
-            if (dist > 10) break;
+            if (dist == 10) break;
 
             Marble bluePoll = blueMarble.poll();
             int blueX = bluePoll.x;
