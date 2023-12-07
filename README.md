@@ -71,5 +71,40 @@ Baekjoon Online Judge 문제풀이 스터디
 - [3055 탈출](https://www.acmicpc.net/problem/3055)
 - [13459 구슬 탈출](https://www.acmicpc.net/problem/13459)
 
+#### 12주차
+
+- [17141 연구소 2](https://www.acmicpc.net/problem/17141)
+- [1965 상자넣기](https://www.acmicpc.net/problem/1965)
+- [13913 숨바꼭질 4](https://www.acmicpc.net/problem/13913)
+
+#### 13주차
+
+- [2302 극장 좌석](https://www.acmicpc.net/problem/2302)
+- [16918 봄버맨](https://www.acmicpc.net/problem/16918)
+- [1328 고층 빌딩](https://www.acmicpc.net/problem/1328)
+
+#### 14주차
+
+- [2098 외판원 순회](https://www.acmicpc.net/problem/2098)
+- [2667 단지번호붙이기](https://www.acmicpc.net/problem/2667)
+- [14923 미로 탈출](https://www.acmicpc.net/problem/14923)
+
+#### 15주차
+
+- [1780 종이의 개수](https://www.acmicpc.net/problem/1780)
+- [2468 안전 영역](https://www.acmicpc.net/problem/2468)
+- [2631 줄세우기](https://www.acmicpc.net/problem/2631)
+
+#### 16주차
+
+- [6593 상범 빌딩](https://www.acmicpc.net/problem/6593)
+- [2580 스도쿠](https://www.acmicpc.net/problem/2580)
+- [9012 괄호](https://www.acmicpc.net/problem/9012)
+
+#### 17주차
+
+- [16956 늑대와 양](https://www.acmicpc.net/problem/16956)
+- [2011 암호코드](https://www.acmicpc.net/problem/2011)
+- [17140 이차원 배열과 연산](https://www.acmicpc.net/problem/17140)
 
 
