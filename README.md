@@ -115,3 +115,7 @@ Baekjoon Online Judge 문제풀이 스터디
 
 #### 19주차
 
+- [2096	 내려가기](https://www.acmicpc.net/problem/2096)
+- [2583 영역 구하기](https://www.acmicpc.net/problem/2583)
+- [14889 스타트와 링크](https://www.acmicpc.net/problem/14889)
+
