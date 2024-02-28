@@ -7,9 +7,9 @@ Baekjoon Online Judge 문제풀이 스터디
 
 #### 1주차
 
-- 2579 계단오르기
-- 9465 스티커
-- 2293 동전 1
+- [2579 계단오르기](https://www.acmicpc.net/problem/2579)
+- [9465 스티커](https://www.acmicpc.net/problem/9465)
+- [2293 동전 1](https://www.acmicpc.net/problem/2293)
 
 #### 2주차
 
