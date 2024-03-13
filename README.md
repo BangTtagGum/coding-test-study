@@ -99,11 +99,9 @@ Baekjoon Online Judge 문제풀이 스터디
 
 - [6593 상범 빌딩](https://www.acmicpc.net/problem/6593)
 - [2580 스도쿠](https://www.acmicpc.net/problem/2580)
-- [9012 괄호](https://www.acmicpc.net/problem/9012)
 
 #### 17주차
 
-- [16956 늑대와 양](https://www.acmicpc.net/problem/16956)
 - [2011 암호코드](https://www.acmicpc.net/problem/2011)
 - [17140 이차원 배열과 연산](https://www.acmicpc.net/problem/17140)
 
@@ -111,11 +109,9 @@ Baekjoon Online Judge 문제풀이 스터디
 
 - [13460 구슬탈출 2](https://www.acmicpc.net/problem/13460)
 - [15653 구슬탈출 4](https://www.acmicpc.net/problem/15653)
-- [2210 숫자판 점프](https://www.acmicpc.net/problem/2210)
 
 #### 19주차
 
 - [2096	 내려가기](https://www.acmicpc.net/problem/2096)
 - [2583 영역 구하기](https://www.acmicpc.net/problem/2583)
-- [14889 스타트와 링크](https://www.acmicpc.net/problem/14889)
 
