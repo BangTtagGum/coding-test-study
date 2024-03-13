@@ -1,7 +1,7 @@
 # coding-test-study
 Baekjoon Online Judge 문제풀이 스터디
 
-🔗 https://www.acmicpc.net/group/13295
+🔗 https://www.acmicpc.net/group/workbook/view/13295/61246
 
 #### 매주 수 22:00 정기모임
 
