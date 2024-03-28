@@ -113,7 +113,7 @@ Baekjoon Online Judge 문제풀이 스터디
 #### 19주차
 
 - [2096 내려가기](https://www.acmicpc.net/problem/2096)
-- [17142 연구소 3](https://www.acmicpc.net/problem/17142)
+- [17142 연구소 3](https://www.acmicpc.net/problem/17142)
 
 #### 20주차
 
