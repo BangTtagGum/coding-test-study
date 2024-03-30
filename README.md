@@ -112,6 +112,11 @@ Baekjoon Online Judge 문제풀이 스터디
 
 #### 19주차
 
-- [2096	 내려가기](https://www.acmicpc.net/problem/2096)
-- [2583 영역 구하기](https://www.acmicpc.net/problem/2583)
+- [2096 내려가기](https://www.acmicpc.net/problem/2096)
+- [17142 연구소 3](https://www.acmicpc.net/problem/17142)
+
+#### 20주차
+
+- [12100 2048 (Easy)](https://www.acmicpc.net/problem/12100)
+- [15685 드래곤 커브](https://www.acmicpc.net/problem/15685)
 
