@@ -120,3 +120,17 @@ Baekjoon Online Judge 문제풀이 스터디
 - [12100 2048 (Easy)](https://www.acmicpc.net/problem/12100)
 - [15685 드래곤 커브](https://www.acmicpc.net/problem/15685)
 
+#### 21주차
+
+- [16235 나무 재테크](https://www.acmicpc.net/problem/16235)
+- [16236 아기 상어](https://www.acmicpc.net/problem/16236)
+
+#### 22주차
+
+- [17143 낚시왕](https://www.acmicpc.net/problem/17143)
+- [17779 게리맨더링 2](https://www.acmicpc.net/problem/17779)
+
+#### 23주차
+
+- [17837 새로운 게임 2](https://www.acmicpc.net/problem/17837)
+- [17822 원판 돌리기](https://www.acmicpc.net/problem/17822)
