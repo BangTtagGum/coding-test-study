@@ -134,3 +134,9 @@ Baekjoon Online Judge 문제풀이 스터디
 
 - [17837 새로운 게임 2](https://www.acmicpc.net/problem/17837)
 - [17822 원판 돌리기](https://www.acmicpc.net/problem/17822)
+
+#### 24주차
+
+- [17825 주사위 윷놀이](https://www.acmicpc.net/problem/17825)
+- [20061 모노미노도미노](https://www.acmicpc.net/problem/20061)
+
