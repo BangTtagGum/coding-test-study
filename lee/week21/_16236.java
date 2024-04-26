@@ -16,7 +16,7 @@ public class _16236 {
 
     static int map[][];
     static BabyShark shark;
-    static Map<Integer, Integer> totaㅌㅐ태크lFishes = new HashMap<>();
+    static Map<Integer, Integer> totalFishes = new HashMap<>();
     static PriorityQueue<ArrayList<Integer>> pq;
     static int n;
     static int time;
