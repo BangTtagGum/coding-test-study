@@ -138,5 +138,10 @@ Baekjoon Online Judge 문제풀이 스터디
 #### 24주차
 
 - [17825 주사위 윷놀이](https://www.acmicpc.net/problem/17825)
-- [20061 모노미노도미노](https://www.acmicpc.net/problem/20061)
+- [20061 모노미노도미노 2](https://www.acmicpc.net/problem/20061)
+
+#### 25주차
+
+- [19236 청소년 상어](https://www.acmicpc.net/problem/19236)
+- [19237 어른 상어](https://www.acmicpc.net/problem/19237)
 
