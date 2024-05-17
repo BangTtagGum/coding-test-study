@@ -145,3 +145,8 @@ Baekjoon Online Judge 문제풀이 스터디
 - [19236 청소년 상어](https://www.acmicpc.net/problem/19236)
 - [19237 어른 상어](https://www.acmicpc.net/problem/19237)
 
+#### 26주차
+
+- [19238 스타트 택시](https://www.acmicpc.net/problem/19238)
+- [20055 컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)
+
