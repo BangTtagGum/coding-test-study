@@ -150,3 +150,7 @@ Baekjoon Online Judge 문제풀이 스터디
 - [19238 스타트 택시](https://www.acmicpc.net/problem/19238)
 - [20055 컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)
 
+#### 26주차
+
+- [20056 마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
+- [20057 마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
