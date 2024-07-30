@@ -172,6 +172,35 @@ Baekjoon Online Judge & Programmers 문제풀이 스터디
 
 #### 30주차
 
-- [20040 사이클 게임](https://www.acmicpc.net/problem/20040)
-- [21611 마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611)
+- [Lv.2 택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369)
+- [Lv.2 이모티콘 할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
 
+#### 32주차
+
+- [Lv.3 표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)
+- [Lv.3 표 병합](https://school.programmers.co.kr/learn/courses/30/lessons/150366)
+
+#### 32주차
+
+- [Lv.3 미로탈출 명령어](https://school.programmers.co.kr/learn/courses/30/lessons/150365)
+- [Lv.4 1,2,3 떨어트리기](https://school.programmers.co.kr/learn/courses/30/lessons/150364)
+
+#### 33주차
+
+- [Lv.3 등산 코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)
+- [Lv.4 행렬과 연산](https://school.programmers.co.kr/learn/courses/30/lessons/118670)
+
+#### 34주차
+
+- [Lv.3 코딩 테스트 공부](https://school.programmers.co.kr/learn/courses/30/lessons/118668)
+- [Lv.2 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
+
+#### 35주차
+
+- [Lv.3 사라지는 발판](https://school.programmers.co.kr/learn/courses/30/lessons/92345)
+- [Lv.3 파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344)
+
+#### 36주차
+
+- [Lv.3 양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)
+- [Lv.2 양궁 대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
