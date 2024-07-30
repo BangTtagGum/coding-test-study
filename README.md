@@ -1,5 +1,5 @@
 # coding-test-study
-Baekjoon Online Judge 문제풀이 스터디
+Baekjoon Online Judge & Programmers 문제풀이 스터디
 
 🔗 https://www.acmicpc.net/group/workbook/view/13295/61246
 
@@ -154,3 +154,8 @@ Baekjoon Online Judge 문제풀이 스터디
 
 - [20056 마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
 - [20057 마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
+
+#### 27주차
+
+- [Lv.1 가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712)
+- [Lv.2 도넛과 막대 그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711)
