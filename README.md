@@ -159,3 +159,19 @@ Baekjoon Online Judge & Programmers 문제풀이 스터디
 
 - [Lv.1 가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712)
 - [Lv.2 도넛과 막대 그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711)
+
+#### 28주차
+
+- [Lv.3 주사위 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/258709)
+- [Lv.3 n+1 카드게임](https://school.programmers.co.kr/learn/courses/30/lessons/258707)
+
+#### 29주차
+
+- [Lv.3 산 모양 타일링](https://school.programmers.co.kr/learn/courses/30/lessons/258705)
+- [Lv.1 개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370)
+
+#### 30주차
+
+- [20040 사이클 게임](https://www.acmicpc.net/problem/20040)
+- [21611 마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611)
+
