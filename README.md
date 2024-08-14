@@ -3,8 +3,6 @@ Baekjoon Online Judge & Programmers 문제풀이 스터디
 
 🔗 https://www.acmicpc.net/group/workbook/view/13295/61246
 
-#### 매주 수 22:00 정기모임
-
 #### 1주차
 
 - [2579 계단오르기](https://www.acmicpc.net/problem/2579)
