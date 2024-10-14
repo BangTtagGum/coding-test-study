@@ -160,45 +160,40 @@ Baekjoon Online Judge & Programmers 문제풀이 스터디
 
 #### 28주차
 
-- [Lv.3 주사위 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/258709)
-- [Lv.3 n+1 카드게임](https://school.programmers.co.kr/learn/courses/30/lessons/258707)
+- [20040 사이클 게임](https://www.acmicpc.net/problem/20040)
 
 #### 29주차
 
-- [Lv.3 산 모양 타일링](https://school.programmers.co.kr/learn/courses/30/lessons/258705)
-- [Lv.1 개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370)
-
+- [20044 Project Teams](https://www.acmicpc.net/problem/20044)
+  
 #### 30주차
 
-- [Lv.2 택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369)
-- [Lv.2 이모티콘 할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
+- [20046 Road Reconstruction](https://www.acmicpc.net/problem/20046)
+  
+#### 31주차
+
+- [20047 동전 옮기기](https://www.acmicpc.net/problem/20047)  
 
 #### 32주차
 
-- [Lv.3 표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367)
-- [Lv.3 표 병합](https://school.programmers.co.kr/learn/courses/30/lessons/150366)
-
-#### 32주차
-
-- [Lv.3 미로탈출 명령어](https://school.programmers.co.kr/learn/courses/30/lessons/150365)
-- [Lv.4 1,2,3 떨어트리기](https://school.programmers.co.kr/learn/courses/30/lessons/150364)
+- [20170 Commemorative Dice](https://www.acmicpc.net/problem/20170)  
 
 #### 33주차
 
-- [Lv.3 등산 코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)
-- [Lv.4 행렬과 연산](https://school.programmers.co.kr/learn/courses/30/lessons/118670)
+- [20171 Dessert Café](https://www.acmicpc.net/problem/20171)  
 
 #### 34주차
 
-- [Lv.3 코딩 테스트 공부](https://school.programmers.co.kr/learn/courses/30/lessons/118668)
-- [Lv.2 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
+- [20173 Imprecise Computer](https://www.acmicpc.net/problem/20173)  
 
 #### 35주차
 
-- [Lv.3 사라지는 발판](https://school.programmers.co.kr/learn/courses/30/lessons/92345)
-- [Lv.3 파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344)
+- [20175 Mobile Robot](https://www.acmicpc.net/problem/20175)  
 
 #### 36주차
 
-- [Lv.3 양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)
-- [Lv.2 양궁 대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
+- [17520 Balanced String](https://www.acmicpc.net/problem/17520)  
+
+#### 37주차
+
+- [17521 Byte Coin](https://www.acmicpc.net/problem/17521)
