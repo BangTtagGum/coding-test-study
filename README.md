@@ -1,8 +1,7 @@
 # coding-test-study
 Baekjoon Online Judge & Programmers 문제풀이 스터디
 
-🔗 https://www.acmicpc.net/group/workbook/view/13295/61246
-
+🔗 https://www.acmicpc.net/group/workbook/view/13295/71962
 #### 1주차
 
 - [2579 계단오르기](https://www.acmicpc.net/problem/2579)
