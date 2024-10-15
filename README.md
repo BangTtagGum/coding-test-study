@@ -161,6 +161,9 @@ Baekjoon Online Judge & Programmers 문제풀이 스터디
 
 - [20040 사이클 게임](https://www.acmicpc.net/problem/20040)
 
+  ##### [보너스 문제]
+  - [Garage game](https://softeer.ai/practice/6276)
+
 #### 29주차
 
 - [20044 Project Teams](https://www.acmicpc.net/problem/20044)
