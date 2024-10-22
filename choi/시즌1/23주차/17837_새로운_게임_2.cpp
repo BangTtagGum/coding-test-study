@@ -142,29 +142,6 @@ bool move(int p, bool turned){
   return burden[bottom[nr][nc]] >= 3;
 }
 
-void show(){
-  cout << endl;
-  for (int i = 1; i <= N; ++i){
-    for (int j = 1; j <= N; ++j){
-      cout << "(" << bottom[i][j] << "," << top[i][j] << ") ";
-    }
-    cout << endl;
-  }
-  cout << "prv:";
-  for (int i = 1; i <= N; ++i){
-    cout << prv[i] << ' ';
-  }
-  cout << "nxt:";
-  for (int i = 1; i <= N; ++i){
-    cout << nxt[i] << ' ';
-  }
-  cout << "burden:";
-  for (int i = 1; i <= N; ++i){
-    cout << burden[i] << ' ';
-  }
-  cout << endl;
-}
-
 void solve(){
   int answer = 0;
   while (answer <= 1000){
@@ -172,10 +149,8 @@ void solve(){
     for (int p = 1; p <= K; ++p){
       if (move(p, 0)){
         cout << answer;
-        // show();
         return;
       }
-      // show();
     }
   }
   cout << -1;
