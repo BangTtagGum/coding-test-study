@@ -11,7 +11,7 @@ using namespace std;
 int N, K;
 int board[13][13];
 int bottom[13][13], top[13][13];
-int burden[13], prv[13], nxt[13];
+int burden[13], down[13], up[13];
 typedef struct piece{
   int r, c, dir;
 }PIECE;
@@ -36,40 +36,40 @@ void input(){
 void updateTowerToTop(int p){
   int r = pieces[p].r;
   int c = pieces[p].c;
-  while (nxt[p]){
-    pieces[nxt[p]].r = r;
-    pieces[nxt[p]].c = c;
-    p = nxt[p];
+  while (up[p]){
+    pieces[up[p]].r = r;
+    pieces[up[p]].c = c;
+    p = up[p];
   }
 }
 
 void updateTowerToBottom(int p, bool removed){
   int b = burden[p] + 1;
   if (removed) b *= -1;
-  while (prv[p]){
-    burden[prv[p]] += b;
-    p = prv[p];
+  while (down[p]){
+    burden[down[p]] += b;
+    p = down[p];
   }
 }
 
-int getTowerBottom(int p){
-  while (prv[p]){
-    p = prv[p];
+int getBottom(int p){
+  while (down[p]){
+    p = down[p];
   }
   return p;
 }
 
-int getTowerTop(int p){
-  while (nxt[p]){
-    p = nxt[p];
+int getTop(int p){
+  while (up[p]){
+    p = up[p];
   }
   return p;
 }
 
 void extendTower(int r, int c, int p){
-  nxt[top[r][c]] = p;
-  prv[p] = top[r][c];
-  top[r][c] = getTowerTop(p);
+  up[top[r][c]] = p;
+  down[p] = top[r][c];
+  top[r][c] = getTop(p);
 
   pieces[p].r = r;
   pieces[p].c = c;
@@ -79,7 +79,7 @@ void extendTower(int r, int c, int p){
 
 void buildTower(int r, int c, int p){
   bottom[r][c] = p;
-  top[r][c] = getTowerTop(p);
+  top[r][c] = getTop(p);
 
   pieces[p].r = r;
   pieces[p].c = c;
@@ -87,27 +87,33 @@ void buildTower(int r, int c, int p){
 }
 
 int reverseTower(int p){
-  int top_ = p;
-  int bottom_ = p;
-  if (!nxt[p]) return p;
+  if (!burden[p]) return p;
+
+  int subTop = p;
+  int subBottom = p;
+
+  // Change pointers.
   while (p){
-    bottom_ = nxt[p];
-    nxt[p] = prv[p];
-    if (prv[p])
-      prv[prv[p]] = p;
-    swap(p, bottom_);
+    subBottom = up[p];
+    up[p] = down[p];
+    down[down[p]] = p;
+    swap(p, subBottom);
   }
-  prv[bottom_] = 0;
-  p = top_;
+  down[subBottom] = 0;
+
+  // Update sizes of sub towers.
   int cnt = 0;
+  p = subTop;
   while (p){
     burden[p] = cnt++;
-    p = prv[p];
+    p = down[p];
   }
-  return bottom_;
+  return subBottom;
 }
 
 bool move(int p, bool turned){
+  if (getBottom(p) != p)
+    return false;
   auto [r, c, d] = pieces[p];
 
   int nr = r + dr[d];
@@ -126,18 +132,15 @@ bool move(int p, bool turned){
     bottom[r][c] = top[r][c] = 0;
   else {
     updateTowerToBottom(p, 1);
-    top[r][c] = prv[p];
-    nxt[prv[p]] = 0;
-    prv[p] = 0;
+    top[r][c] = down[p];
+    up[down[p]] = 0;
+    down[p] = 0;
   }
 
   if (board[nr][nc] == red)
     p = reverseTower(p);
 
-  if (bottom[nr][nc])
-    extendTower(nr, nc, p);
-  else
-    buildTower(nr, nc, p);
+  bottom[nr][nc] ? extendTower(nr, nc, p) : buildTower(nr, nc, p);
   
   return burden[bottom[nr][nc]] >= 3;
 }
