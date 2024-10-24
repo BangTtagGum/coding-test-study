@@ -171,7 +171,11 @@ Baekjoon Online Judge & Programmers 문제풀이 스터디
 #### 30주차
 
 - [20046 Road Reconstruction](https://www.acmicpc.net/problem/20046)
-  
+
+  ##### [보너스 문제]
+  - [20058 마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
+  - [21608 상어 초등학교](https://www.acmicpc.net/problem/21608)
+
 #### 31주차
 
 - [20047 동전 옮기기](https://www.acmicpc.net/problem/20047)  
