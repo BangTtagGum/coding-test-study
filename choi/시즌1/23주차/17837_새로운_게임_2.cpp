@@ -112,8 +112,8 @@ int reverseTower(int p){
 }
 
 bool move(int p, bool turned){
-  if (getBottom(p) != p)
-    return false;
+  //if (getBottom(p) != p)
+    //return false;
   auto [r, c, d] = pieces[p];
 
   int nr = r + dr[d];
