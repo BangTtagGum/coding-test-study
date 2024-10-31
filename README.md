@@ -173,33 +173,26 @@ Baekjoon Online Judge & Programmers 문제풀이 스터디
 - [20046 Road Reconstruction](https://www.acmicpc.net/problem/20046)
 
   ##### [보너스 문제]
-  - [20058 마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
-  - [21608 상어 초등학교](https://www.acmicpc.net/problem/21608)
+  - [20058 마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058) 
 
 #### 31주차
 
-- [20047 동전 옮기기](https://www.acmicpc.net/problem/20047)  
+- [20047 동전 옮기기](https://www.acmicpc.net/problem/20047)
+- [20170 Commemorative Dice](https://www.acmicpc.net/problem/20170)  
 
 #### 32주차
 
-- [20170 Commemorative Dice](https://www.acmicpc.net/problem/20170)  
+- [20171 Dessert Café](https://www.acmicpc.net/problem/20171)
+- [20173 Imprecise Computer](https://www.acmicpc.net/problem/20173)   
 
 #### 33주차
 
-- [20171 Dessert Café](https://www.acmicpc.net/problem/20171)  
+- [20175 Mobile Robot](https://www.acmicpc.net/problem/20175)  
+- [17520 Balanced String](https://www.acmicpc.net/problem/17520)  
 
 #### 34주차
 
-- [20173 Imprecise Computer](https://www.acmicpc.net/problem/20173)  
-
-#### 35주차
-
-- [20175 Mobile Robot](https://www.acmicpc.net/problem/20175)  
-
-#### 36주차
-
-- [17520 Balanced String](https://www.acmicpc.net/problem/17520)  
-
-#### 37주차
-
 - [17521 Byte Coin](https://www.acmicpc.net/problem/17521)
+
+
+
