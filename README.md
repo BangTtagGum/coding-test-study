@@ -194,5 +194,24 @@ Baekjoon Online Judge & Programmers 문제풀이 스터디
 
 - [17521 Byte Coin](https://www.acmicpc.net/problem/17521)
 
+#### 35주차
+
+- [17626 Four Squares](https://www.acmicpc.net/problem/17626)
+
+
+#### 36주차
+
+- [16282 Black Chain](https://www.acmicpc.net/problem/16282)
+
+
+#### 37주차
+
+- [16283 Farm](https://www.acmicpc.net/problem/16283)
+
+#### 38주차
+
+- [16288 Passport Control](https://www.acmicpc.net/problem/16288)
+
+
 
 
